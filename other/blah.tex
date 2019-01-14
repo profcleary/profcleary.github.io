@@ -1,0 +1,412 @@
+\documentstyle[12pt]{article}
+%\documentstyle{article}
+\pagestyle{headings}
+\textwidth=6.25in
+\textheight=9in
+\hoffset=-.50in
+\parindent=0in
+\voffset=-1.in
+\begin{document}
+%\input epsf
+\begin{titlepage}
+\newcommand{\ul}{\underline}
+\newcommand{\spa}{\hspace{.15in}}
+%
+%
+{\Large
+\begin{tabular}{ll}
+NAME (Printed) & \ul{\hspace{3in}}  \vspace{.45in} \\
+NAME (Signed) & \ul{\hspace{3in}} \vspace{.25in} \\
+\end{tabular} 
+}
+{\Large
+\begin{center}
+MATH 203 \\ EXAM 3 \\ December 4, 2001\\ Dr. Cleary
+\bigskip
+\medskip
+
+\begin{tabular}{|c|l|}
+\hline
+\hspace{.05in} 1 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  2 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  3 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  4 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  5 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  6 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+\hspace{.05in}  7 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+%\hspace{.05in}  8 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+%\hspace{.05in}  9 \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+%\hspace{.05in}  10\hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline
+
+
+\hspace{.05in} TOTAL \hspace{.05in} & \hspace{.5in} \mbox{ } \\ \hline 
+\hspace{.05in} POSSIBLE \hspace{.05in} & 180  \\ \hline 
+\end{tabular} 
+
+\end{center}
+}
+%\parbox{3in}
+%{
+
+\bigskip
+
+{\bf Instructions:}  Read each question carefully.
+There are
+a total of 7 questions on 5
+pages, not counting this page.
+%}
+
+
+\medskip
+Each question is worth 20 points, except numbers 1 and 6 which are worth 40 points.
+Be sure to show your work and read the
+questions carefully.  Remember that it is your obligation to answer
+the question clearly and in a way that convinces the grader that
+you understand how to solve the problem, so make sure your work
+is clear and easy to follow.  There is no need to simplify your
+answers.
+
+\medskip
+Notes, calculators and books are not to be used.
+%Calculators should
+%not be needed but may be used if desired.  If a calculator
+%is used for a particular step in a problem, you must
+%indicate that with the symbol of a circled c (``\copyright")
+%at that step.
+All work on this exam is to be your own.
+Stop working immediately at the end of the exam
+when time is called.
+\end{titlepage}
+%
+\newtheorem{question}{Question}
+\newcommand{\quest}
+{\begin{question} \em \noindent
+}
+
+
+\newcommand{\ds}
+{\displaystyle}
+
+\newcommand{\quend}
+{\end{question}}
+
+
+\newcommand{\ii}
+ {\mbox{$\bf \hat{\mbox{\i} }$}}
+
+\newcommand{\jj}
+ {\mbox{$\bf \hat{\mbox{\j} }$}}
+
+\newcommand{\kk}
+ {\mbox{$\bf \hat{\mbox{k} }$}}
+
+\newcommand{\nhat}
+ {\mbox{$\bf \mbox{n}$}}
+
+\newcommand{\tang}
+ {\mbox{$\bf \mbox{T}$}}
+
+\newcommand{\del}{\partial}
+
+\newcommand{\tfm}
+ {\center {\bf \mbox{True \hspace{1in} False \hspace{1in} Meaningless}}}
+
+
+
+\newpage
+
+
+\quest Do the following series converge?  For each series,
+state which test or tests were used in your analysis.
+\quend
+
+\noindent a) 
+$\displaystyle \sum_{\ds n=1}^{\infty} \frac{1}{2n+3}$ 
+
+\vspace{1.3in}
+%\cdt
+
+\noindent b) $\displaystyle \sum_{\ds n=1}^{\infty} \frac{\sqrt[\ds 4]{n}+\sqrt{n}}{n^{\ds 2}+4n} $ 
+%\cdt
+
+\vspace{1.3in}
+
+\noindent c) $\displaystyle \sum_{\ds n=1}^{\infty} \frac{n^{\ds 2}+4n+3}{3^{\ds n+1}} $ 
+%\cdt
+
+\vspace{1.3in}
+
+\noindent d) $\ds \frac{\ds \sqrt{2}}{\ds 3 \cdot 4} +
+ \frac{\ds \sqrt{4}}{\ds 5 \cdot 6}+
+\frac{\ds \sqrt{6}}{\ds 7 \cdot 8} +
+\frac{\ds \sqrt{8}}{\ds 9 \cdot 10} + \cdots
+ $ 
+%\cdt
+\vspace{1.3in}
+
+\noindent e) $\displaystyle \sum_{\ds n=1}^{\infty} 
+\frac{(n-1)! 5^{\ds n}}{(n+1)!} $
+%\cdt
+
+\vspace{3.5in}
+
+\quest Set up the triple integral to find the mass of a solid
+in the first octant bounded by $x^{\ds 2} + z^{\ds 2} = 9$ and
+the planes $y=2$ and $x+y=40$ if the density of the solid is
+given by $\delta(x,y,z)=4+\ds \sqrt{2x+3y+4z}$. Do not
+evaluate the integral.
+\quend \vspace{3in}
+
+
+\quest Use cylindrical coordinates to find the
+volume of the solid bounded above by the paraboloid
+$z= 20 -x^{\ds 2} - y^{\ds 2} $ and below
+by the cone $z^{\ds 2}=x^{\ds 2} + y^{\ds 2}$.
+\quend
+
+\newpage
+\quest Let $K$ be the solid part of the ball 
+ $ x^{\ds 2} + y^{\ds 2} +z^{\ds 2} \leq 25$ which lies above
+the plane $z=4$.  Find the coordinates of the center of
+mass of $K$.
+\quend \vspace{4in}
+
+%\quest
+%Find the Taylor polynomial centered at $x=0$ of degree 6 for $f(x)= 5\sin(3x)$.
+%\quend
+
+%\newpage
+%\quest Do the following sequences $\{a_n\}$ converge or diverge?  If they
+%converge, compute the limit of the sequence:
+%
+%a) $\displaystyle a_n= \frac{n^{\ds 2}(n-n^{\ds 3})}{5n^{\ds 5}+2n}$ 
+%
+%\vspace{.5in}
+%
+%b) $\displaystyle a_n= 2 + (-1)^{\ds n} \sin(\ds \frac{1}{n})$ 
+%\vspace{.5in}
+%
+%%c) $\displaystyle a_n= \frac{ (2n)!}{n (n)!(n-1)!}$ 
+%%\vspace{.6in}
+%c) $\ds a_n= \frac{\ds \sqrt{n}}{\ds \ln{n}} $ 
+%\vspace{.5in}
+%
+%d) $\displaystyle a_n= \frac{n-444\cos(n)+ \ln(n)}{n-\sqrt{n}}$ 
+%\vspace{.5in}
+%\quend
+\quest
+Set up the integral
+$\ds \int\!\int\!\int_{G}
+x^{\ds 2}+y^{\ds 2}+z^{\ds 3}  \ dV $ using spherical coordinates,
+for $G$ the part of the solid ball of radius 4 centered at
+the origin with $y \leq 0, z \geq 0, x \leq 0 $.  Do not  evaluate the integral.
+\quend
+
+\vspace{3.5in}
+
+%\quest
+%Set up a definite iterated integral to find the surface area of
+%that part of the paraboloid $z=x^{\ds 2} +y^{\ds 2}$ which
+%lies between the planes $z=1$ and $z=4$.
+%\quend
+
+%\vspace{3in}
+
+%\quest Use the second partials test to
+%classify the 
+%critical point $(0,0)$ for the function $f(x,y)= x^2 - y^2 -  6xy$
+%as a relative min, a relative max, a saddle or none of those.
+%\quend
+
+%\newpage
+
+
+
+%\quest 
+%A bluebird travels from $(3,4)$ to $(1,2)$ staying at a constant
+%distance away from a kitten located at $(3,2)$.  Give a parameterization
+%of a path for the bluebird that has the propery that the initial speed
+%is 12.
+%\quend
+
+\vspace{3.5in}
+
+%\quest Find the absolute extrema for the function
+%$f(x,y)=x^{\ds 2} +2x -4 x y+ 4y$ on the region R given by
+%$R= \{(x,y) |0 \leq x\ 2,0 \leq y \leq 3\}$
+%\quend
+
+\newpage
+
+\quest For each of the following series, decid whether the series diverge,
+converge conditionally or converge absolutely.  Explain your reasoning-
+be sure to name  each convergence test you use.
+\quend
+
+\noindent a) 
+$\displaystyle \sum_{\ds n=2}^{\infty}\ \  \frac{(-1)^{\ds n}}{\ds 2n^{\ds 2}+\frac{\ds 5}{\ds n}} $ 
+
+\vspace{1.3in}
+%\cdt
+
+\noindent b) $\displaystyle \sum_{\ds n=1}^{\infty} \frac{(-1)^{\ds n+1}}{\sqrt{n}} $ 
+%\cdt
+
+\vspace{1.3in}
+
+\noindent c) $\displaystyle \sum_{\ds n=1}^{\infty} \frac{12^{\ds n}}{n!} $ 
+%\cdt
+
+\vspace{1.3in}
+
+\noindent d) $\displaystyle \sum_{\ds n=1}^{\infty} (-1)^{\ds n} \sqrt{ \frac{\ds n}{\ds 2n+7}} $ 
+\vspace{1.3in}
+
+
+%\noindent d) $\ds 
+% \frac{\ds 1}{\ds 3 \cdot 4}+
+%\frac{\ds 1}{\ds 4 \cdot 5} +
+%\frac{\ds 1}{\ds 5 \cdot 6} + \cdots
+% $ 
+%%\cdt
+%\vspace{1.3in}
+
+\noindent e) $\ds \frac{\ds -1}{\ds 4 \sqrt{2}} +
+ \frac{\ds 1}{\ds 9 \sqrt{3}} -
+\frac{\ds 1}{\ds 16 \cdot 2} +
+\frac{\ds 1}{\ds 25 \sqrt {5}} -\cdots
+ $ 
+%\cdt
+\vspace{1.3in}
+
+
+\vspace{3.5in}
+%
+%\quest Evaluate:
+%$\ds \int_{\ds 0}^{\ds 8}\int_{\ds \sqrt[\ds 3]{y}}^{\ds 2}
+%\ \ 8e^{\ds x^{\ds 4} } \,dx\ dy $
+%\quend
+
+\newpage
+%\quest Use double integration to find the volume between the 
+%3 coordinate planes, the plane $4x+ y=8$ and the surface $z=6xy$.
+%\quend
+
+%\quest Use double integration to find the volume between the
+%cylinder $x^2+y^2 = 9$, the xy-plane and the surface $z=10-x^2-y^2$.
+%\quend
+
+\vspace{3.5in}
+
+ \quest 
+Mayor Giuliani decides to go bungie jumping off of the Brooklyn Bridge.
+The first drop he travels 60 feet downwards before the
+bungie cords rebound him upwards.  Then he bounces back
+upwards three-quarters of the way up before falling downwards
+again.  On each successive bounce, he travels three-quarters of
+the distance of the previous bounce.
+Write down a series expressing the total distance he will
+travel (including both up and down) and compute its sum.
+\quend
+%Sally is going to build a model of a snowflake made out of
+%wood.  At the first stage, she starts with an equilateral triangle
+%with area 1 square meter.  Then she attaches 3 smaller equilateral
+%triangles, with
+%one glued onto the middle third of each segment of
+%the original big triangle, see drawing below.  Then she attaches
+%even smaller triangles to the middle third of each
+%exposed segment at this stage. She continues to attach more and more
+%smaller and smaller triangles, each time gluing the new triangles
+%to the middle third of the existing segments. She does
+%this forever.
+
+%Write down a series which corresponds to the total area of the snowflake
+%and compute its sum.
+%\quend
+
+\vspace{4in}
+%\quest Suppose $f(u,v) = 3 u + 2 v$, with 
+%$u(x,y,z) = 2 x + 3 y^2 z $ and
+%$v(x,y,z) = 4 x+2\cos(x z)$.  Furthermore, suppose
+%x,y and z are the rectangular coordinates which are
+%functions of the spherical coordinate ($\rho$,$\theta$,$\phi$). 
+%Compute $\ds \frac {\partial f}{\partial \theta}$
+
+%\quest Find and classify the relative extrema of
+%the function\\ $z=16-8xy-2x^{\ds 4}-2y^{\ds 4}$
+%
+%\quend
+%
+\end{document}
+\newpage
+
+%\quest
+%A farmer wants to build a box-shaped barn to contain 200 cubic
+% meters of
+%hay. The barn will have a roof, two opposite sides which are walls
+% and two
+%opposite sides which have big barn doors.
+% He does not need to pay for the floor since he will be using
+%dirt, which is essentially free on a farm.  The walls on the sides
+% cost \$2 per square meter.  The end walls with
+%the large doors cost \$4 per square meter and the roof costs \$8 per square
+%meter.  He would like to build the barn for the
+%least total cost.  Use the method of Lagrange multipliers
+%to SET UP a system of equations to find the optimal shape of
+%the barn.  You do not need to solve the system; you only need
+%to set it up.
+%
+%\quend
+
+
+
+
+
+
+%\quest
+%Find the equation of the tangent plane to the surface
+%$z= e^{\ds xy} $ at the point $(-2,-1,e^{\ds 2})$
+%\quend
+%\vspace{4in}
+
+
+%\vspace{4.5in}
+%
+%
+%\quest
+%Use the fact that for 2 vector functions, $\vec{F}(t)$ and $\vec{G}(t)$, \\
+%$\ds (\vec{F}(t) \cdot \vec{G}(t)) '  = 
+%(\vec{F'}(t) \cdot \vec{G}(t)) + 
+%(\vec{F}(t) \cdot \vec{G'}(t)) $
+%to prove that for a curve which lies on a sphere centered at the
+%origin, the velocity vector is always perpendicular to the position
+%vector.
+%\quend
+%\vspace{4.5in}
+%
+%\quest 
+%
+%Let L be the line through (0,-1,2) and (1,0,1).  Parameterize
+%L and find the point where L crosses the plane x+y+z=12.
+%\quend
+%%Either prove the statement below or give
+%%an example to prove that it is false:
+%%
+%%{\center If $\vec{F}$ is a vector field defined in space,
+%%and  if
+%%$\del \cdot \vec{F} = 0$ and $\del \times \vec{F} = \vec{0}$ then
+%%$\vec{F}$ must be the zero vector field.
+%%}
+%%\quend
+
+ \quest 
+%Rudy decides to go bungie jumping off of the Brooklyn Bridge.
+%The first drop he travels 120 feet downwards before the
+%bungie cords rebound him upwards.  Then he bounces back
+%upwards two-thirds of the way up before falling downwards
+%again.  On each successive bounce, he travels two-thirds of
+%the distance of the previous bounce.
+%Write down a series expressing the total distance he will
+%travel and compute its sum.
+
+\end{document}

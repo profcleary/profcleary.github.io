@@ -1,0 +1,6 @@
+        /src/ {save[i++] = NR} {line[NR] = $0}
+        END { for (j=0; j< i; j++) {
+                print line[save[j]]
+                print line[save[j]+1]
+                }
+        }
